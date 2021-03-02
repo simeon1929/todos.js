@@ -1,0 +1,105 @@
+body {
+  background-color: aqua;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: crimson;
+  color: white;
+  font-size: 45px;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.width__middle {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.searchWarp {
+  color: black;
+  width: 500px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  margin-top: 25px;
+  position: relative;
+}
+
+#textBoxfll {
+  width: 100%;
+  padding: 15px;
+}
+
+.btn {
+  right: -129px;
+  top: 0;
+  position: absolute;
+  border: none;
+  background-color: white;
+  color: black;
+  width: 83px;
+  background: crimson;
+  height: 48px;
+  cursor: pointer;
+}
+
+.addText {
+  background-color: darkgoldenrod;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.addText span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-transform: inherit;
+  color: #fff;
+  width: 40px;
+  height: 48px;
+  cursor: pointer;
+  background-color: crimson;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 21px;
+}
+
+.basic {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.4);
+  position: relative;
+}
+
+.basic .blur {
+  position: absolute;
+  bottom: 25px;
+  right: -162px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.bodyFit {
+  background-color: crimson;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
