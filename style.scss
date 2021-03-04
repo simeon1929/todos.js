@@ -1,6 +1,6 @@
-body {
-    background-color: aqua;
-}
+// body {
+//     background-color: aqua;
+// }
 * {
     margin: 0; padding: 0;
 }
@@ -61,7 +61,13 @@ header {
       }
   }
 
-  .bodyFit {
-      background-color: crimson;
-      height: 100vh;
+//   .bodyFit {
+//       background-color: crimson;
+//       height: 100vh;
+//   }
+
+  #myChart { background-color: brown;}
+  .maindiv {
+      max-width: 960px; margin: 0 auto;
   }
+  .gridOne { width: 33.333%; height: 200px; overflow: hidden;}
